@@ -24,7 +24,7 @@ ENV PROJECT_HOME=/opt/app
 WORKDIR $PROJECT_HOME
 
 # Adjust this line if your jar name is different
-COPY --from=build /app/target/spring-boot-mongo-1.0.0-SNAPSHOT.jar spring-boot-mongo.jar
+COPY --from=build /app/target/spring-boot-mongo-1.0.2-SNAPSHOT.jar spring-boot-mongo.jar
 
 EXPOSE 8080
 
