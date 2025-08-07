@@ -95,7 +95,6 @@
     <snapshotRepository>
         <id>nexus</id>
         <url>http://52.66.205.216:8081/repository/maven-snapshots/</url>
-	    <version>1.2.0</version>
     </snapshotRepository>
     <repository>
         <id>nexus</id>
